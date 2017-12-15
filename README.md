@@ -113,4 +113,8 @@ Before asking for support, please read first the [Kurento Netiquette Guidelines]
 [Read-the-docs]: http://read-the-docs.readthedocs.org/
 [readthedocs.org]: http://kurento.readthedocs.org/
 [Open API specification]: http://kurento.github.io/doc-kurento/
-[apiary.io]: http://docs.streamoriented.apiary.io/
+[apiary.io]: http://docs.streamoriented.apiary.io/  
+编译问题
+================
+使用maven编译的时候需要用jdk1.8.0，用新版本的jdk9.0编译会出现如下问题
+nested exception is java.lang.NoClassDefFoundError: javax/xml/bind/ValidationException
